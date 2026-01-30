@@ -7,7 +7,7 @@ public class Goat extends Animal{
 
     @Override
     public void speak() {
-        System.out.println("Goat " + name + " says: I'm a billy goat innit!");
+        System.out.println("Goat " + name + " says: I'm the Goat. BAHHH!");
     }
 
     @Override
