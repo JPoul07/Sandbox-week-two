@@ -1,8 +1,8 @@
 package org.example;
 
 public class Cow extends Animal {
-    public Cow(String name) {
-        super(name);
+    public Cow(String name, int age) {
+        super(name, age);
     }
 
     @Override
@@ -14,9 +14,9 @@ public class Cow extends Animal {
     public void run() {
         System.out.println("Your cow " + name + " is running away!!");
     }
-
-    @Override
-    public void bite() {
-        System.out.println("Your cow " + name + " just bit you!!");
-    }
+//
+//    @Override
+//    public void bite() {
+//        System.out.println("Your cow " + name + " just bit you!!");
+//    }
 }
